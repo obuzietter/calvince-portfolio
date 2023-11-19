@@ -28,10 +28,10 @@ body .animated-bg{
             --s: 150px;
             /* control the size */
     
-            --_g: #0000 90deg, #046D8B 0;
+            --_g: #0000 90deg, #000000 0;
             background:
                 conic-gradient(from 116.56deg at calc(100%/3) 0, var(--_g)),
-                conic-gradient(from -63.44deg at calc(200%/3) 100%, var(--_g)) #2FB8AC;
+                conic-gradient(from -63.44deg at calc(200%/3) 100%, var(--_g)) #393939;
             background-size: var(--s) var(--s);
              animation: bgmove 2s infinite alternate;
     
